@@ -2,9 +2,12 @@ terraform {
     required_providers {
         aws = {
             source = "hashicorp/aws"
-            region = "ap-south-1"
-        }
+            }
     }
+}
+
+provider "aws" {
+    region = "ap-south-1"
 }
 
 resource "aws_instance" "myec2" {
