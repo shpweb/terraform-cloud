@@ -27,7 +27,7 @@ It is important to consider that Terraform reads from data sources during the pl
 Check out the blue box under this section for more information: https://learn.hashicorp.com/tutorials/terraform/secrets-vault#provision-compute-instance
 
 
-**Terraform Auto Complete:**
-terraform -install-auto-complete
-or 
+**Terraform Auto Complete:**  
+terraform -install-auto-complete  
+or  
 install plugins from VSCode (or any IDE) for terraform by Hashicorp.com
